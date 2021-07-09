@@ -1,0 +1,140 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  background-color: rgb(190, 49, 68);
+  padding-right: 2rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  /* position: fixed; */
+  /* top: 0; */
+}
+/* main {
+  top: 1.5rem;
+} */
+ul {
+  list-style: none;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  justify-content: flex-end;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.7rem;
+}
+
+#welcome-section {
+  background-color: rgb(30, 31, 38);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+h1 {
+  color: white;
+  font-size: 3rem;
+}
+
+#welcome-section p {
+  color: rgb(190, 49, 68);
+  font-size: 1.5rem;
+  margin-top: -3rem;
+}
+.container {
+  padding: 5rem 0;
+  text-align: center;
+}
+
+#projects-section {
+  background-color: #45567d;
+}
+
+h2 {
+  color: white;
+  text-decoration: underline;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+img {
+  width: 100%;
+}
+.project-title {
+  color: white;
+  background-color: rgb(30, 31, 38);
+  margin-top: -0.05rem;
+  font-size: 1.3rem;
+  padding: 0.5rem 0;
+}
+
+.projects-show-btn {
+  background-color: rgb(30, 31, 38);
+  color: white;
+  font-size: 1.5rem;
+  border: none;
+  padding: 0.5rem 1.2rem;
+  font-weight: bolder;
+}
+
+.contact-section {
+  background-color: rgb(30, 31, 38);
+  padding: 8rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 0.35rem solid rgb(190, 49, 68);
+}
+.contact-section p {
+  color: white;
+  font-size: 0.9rem;
+  margin-top: -2.5rem;
+}
+i {
+  color: white;
+  font-size: 1.2rem;
+}
+.contact-icons {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+footer {
+  background-color: rgb(30, 31, 38);
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+  font-size: 1.2rem;
+  padding-right: 2rem;
+}
+
+@media (max-width: 675px) {
+  #welcome-section {
+    text-align: center;
+  }
+  .contact-section {
+    text-align: center;
+  }
+  footer {
+    padding-right: 1rem;
+  }
+}
+@media (min-width: 675px) {
+  .project-row {
+    display: flex;
+    justify-content: space-around;
+  }
+  .project {
+    width: 30%;
+  }
+  img {
+    height: 400px;
+  }
+}
