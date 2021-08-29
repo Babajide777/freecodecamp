@@ -14,8 +14,14 @@ header {
 header + ul {
   border: 0.1rem solid black;
   list-style: none;
+  overflow: scroll;
 }
 
+@media (max-width: 675px) {
+  header + ul {
+    height: 150px;
+  }
+}
 li.nav-link {
   padding: 0.3rem 0;
   color: black;
@@ -36,6 +42,7 @@ li.nav-link {
     border-right: 0.3rem solid gray;
     height: 100%;
     margin-right: 0.4rem;
+    overflow: scroll;
   }
 
   main {
